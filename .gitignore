@@ -1,8 +1,13 @@
-# Nestjs specific
-/dist
-/node_modules
-/build
-/tmp
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
 
 # Logs
 logs
@@ -12,13 +17,14 @@ pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+.pnpm-debug.log*
 
-# dotenv environment variable files
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
 .env
-.env.development
-.env.test
-.env.production
-
-# temp directory
-.temp
-.tmp
+.env.*
+!.env.example
