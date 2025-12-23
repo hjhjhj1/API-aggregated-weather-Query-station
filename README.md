@@ -1,13 +1,75 @@
-# API-aggregated-weather-Query-station
-开发“API 聚合的天气查询站”
-聚合多个天气 API，展示当前天气、预报、空气质量。
-技术
-Nuxt 3.9 + SSR
-只用 $fetch 调用第三方 API（无需 key）
-样式 Tailwind CSS
-功能
-首页输入城市名，点击查询
-server/api/weather.ts 接收城市名，
-server/api/forecast.ts 返回当前天气 + 7 天预报
-显示：温度、天气图标、湿度、风速
-错误处理：城市不存在时显示友好提示
+# Nuxt Minimal Starter
+
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+## Setup
+
+Make sure to install dependencies:
+
+```bash
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
