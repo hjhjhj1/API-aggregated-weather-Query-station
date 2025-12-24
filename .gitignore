@@ -1,4 +1,5 @@
 # Nestjs specific
+.output
 /dist
 /node_modules
 /build
